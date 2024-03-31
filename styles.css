@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');
-@import "./carolina.svg";
+@import "./caro.svg";
 
 /* Base Styles */
 * {
@@ -36,6 +36,13 @@ h2 {
 p {
     font-size: 19px;
 }
+/*.svg-mirror {
+    transform: scaleX(-1);
+}
+img {
+    width: 50%;
+    min-width: 350px;
+}*/
 img {
     width: 100%;
     min-width: 350px;
@@ -86,7 +93,8 @@ img {
 .grid {
     overflow: visible;
     display: grid;
-    grid-template-columns: 60% 40%;
+    /*grid-template-columns: 60% 10% 30%; Sólo si queremos 3 espacios con el grid-item-3*/
+    grid-template-columns: 60% 40%
 }
 .grid-item-1 {
     position: relative;
@@ -187,3 +195,4 @@ footer a {
 footer a:hover {
         color: #b9b7bc;
     }
+    
