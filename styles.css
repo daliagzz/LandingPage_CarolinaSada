@@ -149,7 +149,7 @@ ul {
             background-image: url(mesa_de_trabajo.svg);
             background-size: cover;
             background-repeat: no-repeat;
-            opacity: 0.3; /* Color de fondo */
+            opacity: 30%; /* Color de fondo */
             z-index: -1; /* Para que quede detrás de las demás capas */
     /*height: 395px;
     background-color: purple;*/
