@@ -35,13 +35,20 @@ window.onclick = function(event) {
     }
 }
 
+var alertaMostrada=false;
+
 // Función para cerrar el modal después de ejecutar una instrucción
 function cerrarModal() {
+    if (!alertaMostrada){
     // Instrucción adicional antes de cerrar el modal (puede ser un mensaje de agradecimiento)
+
+
     alert("¡Gracias por solicitar una copia GRATUITA de mi Curso Digital de FINANZAS!"+
     "\n"+"\nSeguro lo disfrutarás!! En unos minutos te llegará al correo que acabas de registrar. De no ser así, házmelo saber."+
     "\n"+"\ncaroline.sada@tururu.com");
-  
+    alertaMostrada=true;
+    }
+
     // Cerrar el modal
     modal.style.display = "none";
 }
