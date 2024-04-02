@@ -146,8 +146,10 @@ ul {
             left: 0;
             width: 100vw;
             height: 70%;
-            background: url(mesa_de_trabajo.svg);
-            opacity: 30%; /* Color de fondo */
+            background-image: url(mesa_de_trabajo.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.3; /* Color de fondo */
             z-index: -1; /* Para que quede detrás de las demás capas */
     /*height: 395px;
     background-color: purple;*/
