@@ -1,3 +1,4 @@
-Proyecto Reto CSOFT Carolina_Sada
-alumna Dalia González
-landing page publicada en netlify
+# Proyecto Reto CSOFT Caroline_Sada
+- Alumna: Dalia González
+
+Landing page publicada en Netlify.
